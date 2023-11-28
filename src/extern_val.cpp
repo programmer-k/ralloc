@@ -1,4 +1,4 @@
-// This file defines extern variables declared in AllocatorMacro.hpp
+// This file defines extern variables declared in AllocatorMacro.hpp 
 // for other allocators such as PMDK and JEMalloc
 #ifdef RALLOC
     // No extern var
