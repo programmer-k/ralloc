@@ -8,7 +8,7 @@
  * Copyright (C) 2018 Ricardo Leite
  * Licenced under the MIT licence. This file shares some portion from
  * LRMalloc(https://github.com/ricleite/lrmalloc) and its copyright 
- * is retained. See LICENSE for details about MIT License.
+ * is retained. See LICENSE for details about MIT License. 
  */
 
 #include <sys/mman.h>
