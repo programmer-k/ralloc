@@ -154,7 +154,7 @@ public:
 };
 
 template <class T>
-inline bool operator==(const pptr<T>& lhs, const std::nullptr_t& rhs){
+inline bool operator==(const pptr<T>& lhs, const std::nullptr_t&){
     return lhs.is_null();
 }
 
