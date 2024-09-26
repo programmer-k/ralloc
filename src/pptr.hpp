@@ -164,7 +164,7 @@ inline bool operator==(const pptr<T>& lhs, const pptr<T>& rhs){
 }
 
 template <class T>
-inline bool operator!=(const pptr<T>& lhs, const std::nullptr_t& rhs){
+inline bool operator!=(const pptr<T>& lhs, const std::nullptr_t& /*rhs*/){
     return !lhs.is_null();
 }
 
